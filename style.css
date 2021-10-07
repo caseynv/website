@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    background-size: cover;
+    border-radius: 0px 0px 0px 120px;
+    background: linear-gradient(180deg, rgba(2, 16, 74, 0.5) 0%, rgba(1, 19, 74, 0.2) 46.78%, rgba(1, 19, 74, 0) 100%), linear-gradient(90deg, #02114A 17.18%, rgba(2, 20, 74, 0.8) 50.88%, rgba(2, 20, 74, 0.7) 81.2%, rgba(2, 20, 74, 0.4) 100%), url(background--header.png);
+    height: 720px;
+    font-family: 'Roboto', 'Open Sans';
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbarstyling{
+    background-color: transparent;
+}
+
+.topic{
+    color: white;
+}
+
+.topic p{
+    font-weight: 800;
+    font-style: normal;
+    font-size: 49px;
+    line-height: 66px;
+}
+
+.span{
+    color: #FBB03B;
+}
+.subtopic{
+    color: white;
+}
+
+.subtopic p{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
+
+.button1{
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 158px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #FBB03B;
+}
+
+.left{
+    position: absolute;
+    width: 574px;
+    padding-top: 120px;
+}
+
+.back{
+    position:absolute;
+    left: 800px;
+    bottom: -152px;
+    z-index: 1;
+}
+.front{
+    position:absolute;
+    left: 700px;
+    bottom: -152px;
+    z-index: 2;
+}
+
+.yellow--box{
+    position:absolute;
+    left: 1262px;
+    top: 1021px;
+    width: 22px;
+    height: 18px;
+    border-radius: 3px;
+    background-color: #FBB03B;
+    transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
+}
+
+.blue--box{
+    position:absolute;
+    left: 317px;
+    top: 863px;
+    width: 22px;
+    height: 18px;
+    border-radius: 3px;
+    background-color: #27B9C2;
+    transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
+}
+
+.section1{
+    padding-top: 750px;
+    height: 590px;
+}
+.body1{
+    height: 220px;
+}
+.body--body{
+    height: 297px;
+}
+.topic1 h4{
+    color: #FBB03B;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.topic1 p{
+    color: #02114A;
+    font-weight: bold;
+    font-size: 39px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.part--1, .part--2, .part--3{
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    height: 297px;
+}
+.part--1, .part--2{
+    margin-right: 23px;
+}
+.icon--bg{
+    background-color: rgba(57,100,232, 0.2);
+}
+
+.section2{
+    padding-top: 800px;
+}
