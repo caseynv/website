@@ -64,13 +64,13 @@
 .back{
     position:absolute;
     left: 800px;
-    bottom: -152px;
+    bottom: -95px;
     z-index: 1;
 }
 .front{
     position:absolute;
     left: 700px;
-    bottom: -152px;
+    bottom: -95px;
     z-index: 2;
 }
 
