@@ -5,11 +5,13 @@
 }
 
 .body{
+    font-family: 'Roboto', 'Open Sans';
+}
+.section{
     background-size: cover;
     border-radius: 0px 0px 0px 120px;
     background: linear-gradient(180deg, rgba(2, 16, 74, 0.5) 0%, rgba(1, 19, 74, 0.2) 46.78%, rgba(1, 19, 74, 0) 100%), linear-gradient(90deg, #02114A 17.18%, rgba(2, 20, 74, 0.8) 50.88%, rgba(2, 20, 74, 0.7) 81.2%, rgba(2, 20, 74, 0.4) 100%), url(background--header.png);
-    height: 720px;
-    font-family: 'Roboto', 'Open Sans';
+    height: 670px;
 }
 
 .nav-link{
@@ -56,28 +58,27 @@
 }
 
 .left{
-    position: absolute;
     width: 574px;
     padding-top: 120px;
 }
 
 .back{
     position:absolute;
-    left: 800px;
-    bottom: -95px;
+    left: 60.6%;
+    top: 6.75%;
     z-index: 1;
 }
 .front{
     position:absolute;
-    left: 700px;
-    bottom: -95px;
+    left: 53%;
+    top: 29.5%;
     z-index: 2;
 }
 
 .yellow--box{
     position:absolute;
-    left: 1262px;
-    top: 1021px;
+    left: 85.6%;
+    top: 951px;
     width: 22px;
     height: 18px;
     border-radius: 3px;
@@ -87,24 +88,17 @@
 
 .blue--box{
     position:absolute;
-    left: 317px;
-    top: 863px;
+    left: 15.5%;
+    top: 803px;
     width: 22px;
     height: 18px;
     border-radius: 3px;
     background-color: #27B9C2;
     transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
 }
-
 .section1{
-    padding-top: 750px;
-    height: 590px;
-}
-.body1{
-    height: 220px;
-}
-.body--body{
-    height: 297px;
+    padding-top: 95px;
+    text-align: center;
 }
 .topic1 h4{
     color: #FBB03B;
@@ -115,24 +109,240 @@
     letter-spacing: 0.02em;
 }
 .topic1 p{
-    color: #02114A;
+    color: #02144A;
     font-weight: bold;
     font-size: 39px;
     text-align: center;
     letter-spacing: 0.02em;
+    line-height: 53px;
+}
+.subtopic1{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 180%;
+}
+.section--1{
+    padding-top: 75px;
+}
+.section--2{
+    padding-top: 136px;
+    height: 480px;
+}
+.right2{
+    padding-top: 80px;
+    padding-left: 9%;
+    height: 367px;
+    align-self: center;
+}
+.inner--border{
+    padding-top: 20px;
+    padding-left: 20px;
+    align-content: center;
+    border: 1px dashed #02144A;
+}
+.part--2, .part--3{
+    margin-left: 23px;
+}
+.part--3{
+    box-shadow: 0px -2px 0px #FBB03B, 0px 2px 8px rgba(86, 98, 134, 0.25);
+}
+.part--1{
+    box-shadow: 0px -2px 0px #3964E8, 0px 2px 8px rgba(86, 98, 134, 0.25);
+}
+.part--2{
+    box-shadow: 0px -2px 0px #27B9C2, 0px 2px 8px rgba(86, 98, 134, 0.25);
 }
 .part--1, .part--2, .part--3{
     background-color: #F7F7F7;
     border-radius: 6px;
     height: 297px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
-.part--1, .part--2{
-    margin-right: 23px;
+.icon--1{
+    color: #3964E8;
 }
-.icon--bg{
-    background-color: rgba(57,100,232, 0.2);
+.icon--2{
+    color: #27B9C2;
 }
-
-.section2{
-    padding-top: 800px;
+.icon--3{
+    color: #FBB03B;
+}
+.icon1{
+    width: 48px;
+    height: 48px;
+    opacity: 20%;
+    background-color: #3964E8;
+    border-radius: 50%;
+}
+.icon2{
+    width: 48px;
+    height: 48px;
+    opacity: 20%;
+    background-color: #27B9C2;
+    border-radius: 50%;
+}
+.icon3{
+    width: 48px;
+    height: 48px;
+    opacity: 20%;
+    background-color: #FBB03B;
+    border-radius: 50%;
+}
+.part--1 p, .part--2 p, .part--3 p{
+    color: #02144A;
+    line-height: 23px;
+    letter-spacing: .02em;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 8px;
+}
+.part--1 ul li, .part--2 ul li, .part--3 ul li{
+    line-height: 180%;
+    color: #2B303F;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: .03em;
+}
+.topic2{
+    color: rgba(251, 176, 59, 1);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 180%;
+}
+.subtopic2{
+    color:rgba(2, 20, 74, 1);
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 53px;
+    letter-spacing: .020em;
+}
+.content{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 180%;
+}
+.yellow--box1{
+    position:absolute;
+    left: 49.8%;
+    top: 1560px;
+    width: 22px;
+    height: 18px;
+    border-radius: 3px;
+    background-color: #FBB03B;
+    transform: rotate(46.33deg);
+}
+.yellow--box2{
+    position:absolute;
+    left: 76.1%;
+    top: 1735px;
+    width: 22px;
+    height: 17px;
+    border-radius: 3px;
+    background-color: #FBB03B;
+    transform: rotate(-133.67deg);
+}
+.blue--box1{
+    position:absolute;
+    left: 75.8%;
+    top: 1560px;
+    width: 30px;
+    height: 24px;
+    border-radius: 3px;
+    background-color: #27B9C2;
+    transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
+}
+.blue--box2{
+    position:absolute;
+    left: 49.8%;
+    top: 1735px;
+    width: 30px;
+    height: 24px;
+    border-radius: 3px;
+    background-color: #27B9C2;
+    transform: matrix(0.69, -0.72, -0.72, -0.69, 0, 0)
+}
+.section--3{
+    margin-top: 180px;
+    height: 957px;
+}
+.left--3{
+    width: 35%;
+    height: 570px;
+    justify-content: center;
+}
+.side--1{
+    position: absolute;
+    top: 2745px;
+}
+.back--3{
+    position:absolute;
+    left: 42.75%;
+    z-index: 1;
+    top: 1870px;
+}
+.front--3{
+    position:absolute;
+    left: 49%;
+    top: 30.5%;
+    z-index: 2;
+    top: 1980px;
+    height: 950px;
+}
+.sect--3, .section--3{
+    background-color: #F0F1F5 !important;
+}
+.section--4{
+    margin-top: 67px;
+    height: 683px;
+}
+.bottom{
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.laptop{
+}
+.button--4{
+    border-radius: 30px;
+    width: 130px;
+    height: 60px;
+    margin-top: 10px;
+}
+.top{
+    text-align: center;
+}
+.yellow--box4{
+    position: absolute;
+    background-color: #FBB03B;
+    top: 3600px;
+    left: 90.8%;
+    border-radius: 3px;
+    transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
+    width: 23px;
+    height: 18px;
+}
+.blue--box4{
+    position: absolute;
+    background-color: #27B9C2;
+    top: 2990px;
+    left: 82%;
+    border-radius: 3px;
+    transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
+    width: 23px;
+    height: 18px;
+}
+.dblue--box4{
+    position: absolute;
+    background-color: #3964E8;
+    top: 3300px;
+    left: 20%;
+    border-radius: 3px;
+    transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
+    width: 23px;
+    height: 18px;
 }
