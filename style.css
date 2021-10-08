@@ -297,21 +297,25 @@
     background-color: #F0F1F5 !important;
 }
 .section--4{
-    margin-top: 67px;
+    margin-top: 75px;
     height: 683px;
+}
+.section--5{
+    align-self: center;
 }
 .bottom{
     margin-top: 40px;
     align-items: center;
     justify-content: center;
 }
-.laptop{
+
+.button--41, .button--42, .button--43{
+    background-color: #E1E3EB;
+    height: 90px;
+    align-items: center;
 }
-.button--4{
-    border-radius: 30px;
-    width: 130px;
-    height: 60px;
-    margin-top: 10px;
+.button--42, .button--43{
+    margin-left: 20px;
 }
 .top{
     text-align: center;
