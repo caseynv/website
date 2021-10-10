@@ -12,6 +12,7 @@
     border-radius: 0px 0px 0px 120px;
     background: linear-gradient(180deg, rgba(2, 16, 74, 0.5) 0%, rgba(1, 19, 74, 0.2) 46.78%, rgba(1, 19, 74, 0) 100%), linear-gradient(90deg, #02114A 17.18%, rgba(2, 20, 74, 0.8) 50.88%, rgba(2, 20, 74, 0.7) 81.2%, rgba(2, 20, 74, 0.4) 100%), url(background--header.png);
     height: 670px;
+    position: relative;
 }
 
 .nav-link{
@@ -32,7 +33,6 @@
     font-size: 49px;
     line-height: 66px;
 }
-
 .span{
     color: #FBB03B;
 }
@@ -61,24 +61,22 @@
     width: 574px;
     padding-top: 120px;
 }
-
 .back{
     position:absolute;
-    left: 60.6%;
-    top: 6.75%;
+    bottom: 0;
+    right: 0;
     z-index: 1;
 }
 .front{
     position:absolute;
     left: 53%;
-    top: 29.5%;
+    bottom: 0;
     z-index: 2;
 }
-
 .yellow--box{
     position:absolute;
     left: 85.6%;
-    top: 951px;
+    top: 97.5%;
     width: 22px;
     height: 18px;
     border-radius: 3px;
@@ -89,7 +87,7 @@
 .blue--box{
     position:absolute;
     left: 15.5%;
-    top: 803px;
+    top: 15%;
     width: 22px;
     height: 18px;
     border-radius: 3px;
@@ -97,6 +95,7 @@
     transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
 }
 .section1{
+    position: relative;
     padding-top: 95px;
     text-align: center;
 }
@@ -124,22 +123,6 @@
 }
 .section--1{
     padding-top: 75px;
-}
-.section--2{
-    padding-top: 136px;
-    height: 480px;
-}
-.right2{
-    padding-top: 80px;
-    padding-left: 9%;
-    height: 367px;
-    align-self: center;
-}
-.inner--border{
-    padding-top: 20px;
-    padding-left: 20px;
-    align-content: center;
-    border: 1px dashed #02144A;
 }
 .part--2, .part--3{
     margin-left: 23px;
@@ -226,10 +209,27 @@
     font-size: 20px;
     line-height: 180%;
 }
+.section--2{
+    padding-top: 136px;
+    height: 480px;
+}
+.right2{
+    position: relative;
+    padding-top: 80px;
+    padding-left: 9%;
+    height: 367px;
+    align-self: center;
+}
+.inner--border{
+    padding-top: 20px;
+    padding-left: 20px;
+    align-content: center;
+    border: 1px dashed #02144A;
+}
 .yellow--box1{
     position:absolute;
-    left: 49.8%;
-    top: 1560px;
+    left: 19.8%;
+    top: 21.5%;
     width: 22px;
     height: 18px;
     border-radius: 3px;
@@ -238,8 +238,8 @@
 }
 .yellow--box2{
     position:absolute;
-    left: 76.1%;
-    top: 1735px;
+    left: 95%;
+    top: 65.7%;
     width: 22px;
     height: 17px;
     border-radius: 3px;
@@ -248,8 +248,8 @@
 }
 .blue--box1{
     position:absolute;
-    left: 75.8%;
-    top: 1560px;
+    left: 19.8%;
+    top: 63.5%;
     width: 30px;
     height: 24px;
     border-radius: 3px;
@@ -258,57 +258,60 @@
 }
 .blue--box2{
     position:absolute;
-    left: 49.8%;
-    top: 1735px;
+    left: 95%;
+    top: 20.7%;
     width: 30px;
     height: 24px;
     border-radius: 3px;
     background-color: #27B9C2;
     transform: matrix(0.69, -0.72, -0.72, -0.69, 0, 0)
 }
+.section3{
+    position: relative;
+    padding-top: 200px;
+}
 .section--3{
-    margin-top: 180px;
     height: 957px;
+    position: relative;
 }
 .left--3{
     width: 35%;
     height: 570px;
     justify-content: center;
 }
+.right--3{
+    position: relative;
+}
 .side--1{
     position: absolute;
-    top: 2745px;
+    bottom: 0;
 }
 .back--3{
     position:absolute;
     left: 42.75%;
     z-index: 1;
-    top: 1870px;
+    top: 0;
 }
 .front--3{
     position:absolute;
     left: 49%;
-    top: 30.5%;
+    top: 0;
     z-index: 2;
-    top: 1980px;
     height: 950px;
 }
 .sect--3, .section--3{
     background-color: #F0F1F5 !important;
 }
 .section--4{
+    position: relative;
     margin-top: 75px;
     height: 683px;
-}
-.section--5{
-    align-self: center;
 }
 .bottom{
     margin-top: 40px;
     align-items: center;
     justify-content: center;
 }
-
 .button--41, .button--42, .button--43{
     background-color: #E1E3EB;
     height: 90px;
@@ -323,7 +326,7 @@
 .yellow--box4{
     position: absolute;
     background-color: #FBB03B;
-    top: 3600px;
+    top: 930%;
     left: 90.8%;
     border-radius: 3px;
     transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
@@ -333,7 +336,7 @@
 .blue--box4{
     position: absolute;
     background-color: #27B9C2;
-    top: 2990px;
+    top: 20%;
     left: 82%;
     border-radius: 3px;
     transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
@@ -343,10 +346,29 @@
 .dblue--box4{
     position: absolute;
     background-color: #3964E8;
-    top: 3300px;
+    top: 40%;
     left: 20%;
     border-radius: 3px;
     transform: matrix(-0.69, 0.72, 0.72, 0.69, 0, 0);
     width: 23px;
     height: 18px;
+}
+.button--4{
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 158px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.section--5, .section--6, .section--7, .section--8, .section--9{
+    padding-top: 80px;
+    text-align: center;
+}
+.section--05, .articles{
+    padding-top: 40px;
+    justify-content: center;
+}
+.top--7, .bottom--7{
+    padding-top: 50px;
+    justify-content: space-around;
 }
