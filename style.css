@@ -677,10 +677,11 @@
 	margin-top: -20px;
 	margin-left: -20px;
 }
+.user-1 img, .user-2 img, .user-3 img{
+    margin-right: 25px;
+}
 .testimonial{
   justify-content: space-between;
-  
- 
 }
 .carousel-inner{
   align-content: center;
